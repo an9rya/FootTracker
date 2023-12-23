@@ -1,0 +1,30 @@
+.about-page {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.targets-container {}
+
+.targets-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.target {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.top-box {
+    margin: 0px;
+    padding: 2px 20px;
+    background-color:  rgb(192, 207, 187);
+}
+
+.bottom-box {
+    margin: 0px;
+    padding: 2px 20px;
+    background-color: rgb(215, 215, 215);
+}
