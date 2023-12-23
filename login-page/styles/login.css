@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: Josefin Sans, sans-serif;
+  }
+
+form {
+    text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  form hr {
+    width: 15%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
