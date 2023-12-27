@@ -1,6 +1,7 @@
 .header {
+    width: 100vw;
+    height: 10vh;
     display: flex;
-    margin-top: 10px;
 }
 
 .home-icon {

@@ -21,12 +21,12 @@
 }
 
 .homepage-footsteps {
-    width: 800px;
+    width: 10vw;
     object-fit: contain;
     object-position: center;
     position: absolute;
-    bottom: -400px;
-    right: 0px;
+    bottom: 0px;
+    right: 400px;
     rotate: 270deg;
     z-index: -100;
 }
