@@ -15,10 +15,9 @@
 
 .subtitles {
     display: flex;
-    width: 600px;
+    width: 350px;
     justify-content: space-between;
-    margin-left: 700px;
-    text-align: center;
+    margin-left: 950px;
 }
 
 
