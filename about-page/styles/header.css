@@ -18,6 +18,8 @@
     width: 350px;
     justify-content: space-between;
     margin-left: 950px;
+    align-items: center;
+    ;
 }
 
 .about-button {
@@ -28,7 +30,7 @@
 }
 
 .tips-button,
-.statistics-button{
+.statistics-button {
     background-color: rgb(245, 245, 245);
     border: none;
 }
@@ -36,4 +38,12 @@
 .tips-button:hover,
 .statistics-button:hover {
     text-decoration: underline;
+}
+
+.plus-button {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(141, 155, 138);
+    color: white;
+    border: none;
 }
