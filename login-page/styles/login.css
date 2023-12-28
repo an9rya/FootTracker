@@ -17,3 +17,9 @@ form {
   h1 {
     text-align: center;
   }
+
+  input {
+    background-color: rgb(212, 223, 209);
+    font-family: Josefin Sans, sans-serif;
+    border: none;
+  }
