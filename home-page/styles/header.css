@@ -5,11 +5,11 @@
 }
 
 .home-icon {
-    color: rgb(167, 190, 159);
+    color: rgb(141, 155, 138);
     font-family: Judson, sans-serif;
     font-weight: bold;
     font-size: 50px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(245, 245, 245);
     border: none;
 }
 
@@ -28,7 +28,7 @@
 .tips-button,
 .statistics-button,
 .my-profile-button {
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(245, 245, 245);
 }
 
 .about-button:hover,
