@@ -25,8 +25,8 @@
     object-fit: contain;
     object-position: center;
     position: absolute;
-    bottom: 0px;
-    right: 400px;
+    bottom: -10px;
+    right: 250px;
     rotate: 270deg;
     z-index: -100;
 }
