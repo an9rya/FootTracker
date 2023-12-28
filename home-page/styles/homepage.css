@@ -1,45 +1,41 @@
-.header {
-    width: 100vw;
-    height: 10vh;
-    display: flex;
+.homepage-description {
+    font-size: 35px;
+    line-height: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-weight: 100;
 }
 
-.home-icon {
-    color: rgb(141, 155, 138);
+.homepage-quote {
     font-family: Judson, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    background-color: rgb(245, 245, 245);
-    border: none;
-}
-
-.subtitles {
-    display: flex;
-    width: 350px;
-    justify-content: space-between;
-    margin-left: 950px;
-    align-items: center;
-}
-
-.subtitles button {
-    border: none;
-}
-
-.about-button,
-.tips-button,
-.statistics-button{
-    background-color: rgb(245, 245, 245);
-}
-
-.about-button:hover,
-.tips-button:hover,
-.statistics-button:hover{
-    text-decoration: underline;
-}
-
-.plus-button {
-    width: 30px;
-    height: 30px;
-    background-color: rgb(141, 155, 138);
+    font-size: 60px;
     color: white;
+    background-color: rgb(192, 207, 187);
+    padding: 10px 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+
+    position: relative;
+}
+
+.homepage-footsteps {
+    width: 10vw;
+    object-fit: contain;
+    object-position: center;
+    position: absolute;
+    bottom: -10px;
+    right: 250px;
+    rotate: 270deg;
+    z-index: -100;
+}
+
+.start-tracking-button {
+    color: white;
+    background-color: rgb(141, 155, 138);
+    border: none;
+    padding: 15px 25px;
+    margin-top: 50px;
+    margin-left: 725px;
 }
