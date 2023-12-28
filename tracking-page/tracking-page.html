@@ -110,10 +110,10 @@
             <input type="number" name="drive" id="drive" min="0" max="7" required>
             <br><br>
             <label for="distance-drive">What is the approximate distance you drive per week (in km)?</label>
-            <input type="number" name="distance-drive" id="distance-drive" required>
+            <input type="number" name="distance-drive" id="distance-drive" min="0" required>
             <br><br>
             <label for="distance-plane">What is the approximate distance you travel by plane a year (in km)?</label>
-            <input type="number" name="distance-plane" id="distance-plane" required>
+            <input type="number" name="distance-plane" id="distance-plane" min="0" required>
             <br><br>
         </section>
         <section class="submission">
@@ -131,9 +131,10 @@
                 howmany.setAttribute('name', 'num-bottles');
                 howmany.setAttribute('id', 'num-bottles');
                 howmany.setAttribute('required','');
+                howmany.setAttribute('min', '0');
                 const lab = document.createElement('label');
                 lab.htmlFor = 'num-bottles';
-                lab.innerHTML = 'How many do you use a week on average?';
+                lab.innerHTML = 'How many do you use a week on average? ';
                 container.appendChild(lab);
                 container.appendChild(howmany);
             }
@@ -151,9 +152,10 @@
                 howmany.setAttribute('name', 'num-bags');
                 howmany.setAttribute('id', 'num-bags');
                 howmany.setAttribute('required','');
+                howmany.setAttribute('min', '0');
                 const lab = document.createElement('label');
                 lab.htmlFor = 'num-bags';
-                lab.innerHTML = 'How many do you throw out a week on average?';
+                lab.innerHTML = 'How many do you throw out a week on average? ';
                 container.appendChild(lab);
                 container.appendChild(howmany);
             }
@@ -170,10 +172,11 @@
                 howmany.setAttribute('type', 'number');
                 howmany.setAttribute('name', 'num-straws');
                 howmany.setAttribute('id', 'num-straws');
+                howmany.setAttribute('min', '0');
                 howmany.setAttribute('required','');
                 const lab = document.createElement('label');
                 lab.htmlFor = 'num-straws';
-                lab.innerHTML = 'How many do you use a week on average?';
+                lab.innerHTML = 'How many do you use a week on average? ';
                 container.appendChild(lab);
                 container.appendChild(howmany);
             }
