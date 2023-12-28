@@ -20,8 +20,18 @@
     margin-left: 950px;
 }
 
+input {
+    background-color: rgb(212, 223, 209);
+    color: rgb(141, 155, 138);
+    font-family: Josefin Sans, sans-serif;
+    border: none;
+    font-size: 20px;
+}
 
-
+.submission {
+    color: rgb(212, 223, 209);
+    background-color: rgb(141, 155, 138);
+}
 
 .about-button,
 .statistics-button,
