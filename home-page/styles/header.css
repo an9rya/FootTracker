@@ -18,7 +18,6 @@
     width: 350px;
     justify-content: space-between;
     margin-left: 950px;
-    align-items: center;
 }
 
 .subtitles button {
@@ -27,19 +26,16 @@
 
 .about-button,
 .tips-button,
-.statistics-button{
+.statistics-button,
+.my-profile-button,
+.form-button {
     background-color: rgb(245, 245, 245);
 }
 
 .about-button:hover,
 .tips-button:hover,
-.statistics-button:hover{
+.statistics-button:hover,
+.my-profile-button:hover,
+.form-button:hover {
     text-decoration: underline;
-}
-
-.plus-button {
-    width: 30px;
-    height: 30px;
-    background-color: rgb(141, 155, 138);
-    color: white;
 }
