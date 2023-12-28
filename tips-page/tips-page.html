@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;700&family=Judson:wght@700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet">   
 </head>
 
 <body>
@@ -69,7 +69,7 @@
 
     <p class="general-tips-text">General Tips</p>
     <div class="tips-container">
-        <div class="tips">
+        <div onclick="document.getElementById('gt01').style.display='block'; modal=document.getElementById('gt01');" class="tips">
             <div class="icon">
 
             </div>
@@ -81,7 +81,7 @@
             </div>
         </div>
 
-        <div class="tips">
+        <div onclick="document.getElementById('gt02').style.display='block'; modal=document.getElementById('gt02');" class="tips">
             <div class="icon">
 
             </div>
@@ -94,7 +94,7 @@
             </div>
         </div>
 
-        <div class="tips">
+        <div onclick="document.getElementById('gt03').style.display='block'; modal=document.getElementById('gt03');" class="tips">
             <div class="icon">
 
             </div>
@@ -106,7 +106,7 @@
             </div>
         </div>
 
-        <div class="tips">
+        <div onclick="document.getElementById('gt04').style.display='block'; modal=document.getElementById('gt04');" class="tips">
             <div class="icon">
 
             </div>
@@ -118,6 +118,81 @@
             </div>
         </div>
     </div>
+    
+    <div id="gt01" class="overlay">  
+        <div class = "overlay-content">
+            <div class="tips-container">
+                <div class="tips-overlay">
+                    <div class="icon-overlay">
+
+                    </div>
+                    <div class="tip-overlay">
+                        <p>Food Waste</p>
+                    </div>
+                    <div class="description-overlay">
+                        <p>Organic waste is left to decompose in landfills and contributes to greenhouse gas emissions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gt02" class="overlay">  
+        <div class = "overlay-content">
+            <div class="tips-container">
+                <div class="tips-overlay">
+                    <div class="icon-overlay">
+
+                    </div>
+                    <div class="tip-overlay">
+                        <p>Plastic Waste</p>
+                    </div>
+                    <div class="description-overlay">
+                        <p>Plastic waste is a global concern since it is non-biodegradable, causing many environmental
+                            challenges. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gt03" class="overlay">  
+        <div class = "overlay-content">
+            <div class="tips-container">
+                <div class="tips-overlay">
+                    <div class="icon-overlay">
+
+                    </div>
+                    <div class="tip-overlay">
+                        <p>Home</p>
+                    </div>
+                    <div class="description-overlay">
+                        <p>Includes multiple sources such as lighting and electronic devices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gt04" class="overlay">  
+        <div class = "overlay-content">
+            <div class="tips-container">
+                <div class="tips-overlay">
+                    <div class="icon-overlay">
+
+                    </div>
+                    <div class="tip-overlay">
+                        <p>Transportation</p>
+                    </div>
+                    <div class="description-overlay">
+                        <p>Transportation is one of the leading causes of carbon emissions, as vehicles emit carbon dioxide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/tips-page.js"></script>
 </body>
 
 </html>
