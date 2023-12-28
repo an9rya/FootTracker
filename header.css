@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.home-icon {
+    color: rgb(167, 190, 159);
+    font-family: Judson, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: rgb(224, 224, 224);
+    border: none;
+}
+
+.subtitles {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    margin-left: 950px;
+}
+
+.statistics-button {
+    background-color: rgb(224, 224, 224);
+    border-width: 0px 0px 5px 0px;
+    border-color: rgb(167, 190, 159);
+    border-style: solid;
+}
+
+.about-button,
+.tips-button {
+    background-color: rgb(224, 224, 224);
+    border: none;
+}
+
+.about-button:hover,
+.tips-button:hover {
+    text-decoration: underline;
+}
