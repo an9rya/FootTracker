@@ -1,41 +1,47 @@
-.homepage-description {
-    font-size: 35px;
-    line-height: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
-    font-weight: 100;
-}
+<!DOCTYPE html>
+<html>
 
-.homepage-quote {
-    font-family: Judson, sans-serif;
-    font-size: 60px;
-    color: white;
-    background-color: rgb(192, 207, 187);
-    padding: 10px 250px;
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
+<head>
+    <title>FootTracker | Home</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/homepage.css">
 
-    position: relative;
-}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;700&family=Judson:wght@700&display=swap"
+        rel="stylesheet">
+</head>
 
-.homepage-footsteps {
-    width: 10vw;
-    object-fit: contain;
-    object-position: center;
-    position: absolute;
-    bottom: -10px;
-    right: 250px;
-    rotate: 270deg;
-    z-index: -100;
-}
+<body>
+    <div class="header">
+        <button onclick="window.location.href='../home-page/home-page.html'" class="home-icon">FootTracker</button>
+        <div class="subtitles">
+            <button onclick="window.location.href='../about-page/about-page.html'" class="about-button">About SDG
+                12</button>
+            <button onclick="window.location.href='../tips-page/tips-page.html'" class="tips-button">Tips</button>
+            <button onclick="window.location.href='../statistics-page/statistics-page.html'"
+                class="statistics-button">Statistics</button>
+            <button class="plus-button">+</button>
+        </div>
+    </div>
 
-.start-tracking-button {
-    color: white;
-    background-color: rgb(141, 155, 138);
-    border: none;
-    padding: 15px 25px;
-    margin-top: 50px;
-    margin-left: 725px;
-}
+    <div class="homepage-description">
+        <p>FootTracker is a carbon footprint tracker that allows users to log waste and carbon emissions, produced by
+            daily activities.</p>
+        <p>We believe that the source of resolving issues is through education and awareness.</p>
+        <p>Users can browse for tips on how to reduce their carbon footprint.</p>
+    </div>
+
+    <div class="homepage-quote">
+        <p>Working towards a better tomorrow, one <em>step</em> at a time</p>
+    </div>
+
+    <img class="homepage-footsteps" src="images/footsteps.png">
+
+    <button onclick="window.location.href='../tracking-page/tracking-page.html'" class="start-tracking-button">Start
+        Tracking Today</button>
+</body>
+
+</html>
