@@ -48,6 +48,7 @@
     padding: 0px 15px;
     padding-bottom: 15px;
 
+    line-height: 30px;
 }
 
 
@@ -91,7 +92,6 @@
     background-color: rgb(202, 202, 202);
     padding: 0px 15px;
     padding-bottom: 15px;
-
 }
 
 .general-tips-text {
