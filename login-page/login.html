@@ -19,17 +19,17 @@
     <section>
         <form action="redirect.html" method="POST">
             <section class="name">
-                <input type="text" name="username" id="username" placeholder="username">
+                <input type="text" name="username" id="username" placeholder="username" pattern="^(?!\s).+(?<!\s)$" required title="Username cannot begin or end with a space">
             </section>
             <br>
 
             <section class="pw">
-                <input type="password" name="password" id="password" placeholder="password">
+                <input type="password" name="password" id="password" placeholder="password" pattern="^(?!\s).+(?<!\s)$" required title="Password cannot begin or end with a space">
             </section>
             <br>
 
             <section class="submit">
-                <button onclick="window.location.href='../home-page/home-page.html'" class="submission">Login</button>
+                <input type="submit" value="Login" class="submission">
             </section>
             <br>
         </form>
