@@ -1,0 +1,201 @@
+.bar-graph {
+    width: 1357px;
+    height: 509px;
+    left: 100px;
+    top: 0px;
+    position: relative;
+}
+
+.bar-graph-background {
+    width: 1357px;
+    height: 509px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background-color: rgb(225, 225, 225);
+}
+
+.title {
+    left: 374px;
+    top: 40px;
+    position: absolute;
+    color: #8D9B8A;
+    font-size: 40px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.sidebar-title {
+    width: 291.69px;
+    height: 52.83px;
+    left: 35.57px;
+    top: 397.14px;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    text-align: center;
+    color: #496744;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.electricity-bar {
+    width: 120px;
+    height: 275px;
+    left: 226px;
+    top: 132px;
+    position: absolute;
+    background-color: rgb(167, 190, 159);
+}
+
+.electricity-text {
+    width: 173.26px;
+    height: 40.11px;
+    left: 199.35px;
+    top: 431px;
+    position: absolute;
+    text-align: center;
+    color: #496744;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.agriculture-bar {
+    width: 121px;
+    height: 254px;
+    left: 405px;
+    top: 153px;
+    position: absolute;
+    background-color: rgb(199, 215, 194);
+}
+
+.agriculture-text {
+    width: 173.26px;
+    height: 40.11px;
+    left: 379.35px;
+    top: 433px;
+    position: absolute;
+    text-align: center;
+    color: #496744;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.buildings-bar {
+    width: 119px;
+    height: 79px;
+    left: 585px;
+    top: 328px;
+    position: absolute;
+    background-color: rgb(187, 201, 181);
+}
+
+.buildings-text {
+    width: 173.26px;
+    height: 40.11px;
+    left: 560.35px;
+    top: 433px;
+    position: absolute;
+    text-align: center;
+    color: #496744;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.transportation-bar {
+    width: 121px;
+    height: 153px;
+    left: 763px;
+    top: 253px;
+    position: absolute;
+    background-color: rgb(167, 190, 159);
+}
+
+.transportation-text {
+    width: 173.26px;
+    height: 40.11px;
+    left: 734px;
+    top: 433px;
+    position: absolute;
+    text-align: center;
+    color: #496744;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.industry-bar {
+    width: 119px;
+    height: 229px;
+    left: 949px;
+    top: 177px;
+    position: absolute;
+    background-color: rgb(199, 215, 194);
+}
+
+.industry-text {
+    width: 173.26px;
+    height: 40.11px;
+    left: 921px;
+    top: 433px;
+    position: absolute;
+    text-align: center;
+    color: #496744;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.other-energy-bar {
+    width: 119px;
+    height: 107px;
+    left: 1133px;
+    top: 299px;
+    position: absolute;
+    background: rgb(187, 201, 181);
+}
+
+.other-energy-text {
+    width: 173.26px;
+    height: 40.11px;
+    left: 1103.5px;
+    top: 431px;
+    position: absolute;
+    text-align: center;
+    color: #496744;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.vertical-line {
+    width: 300px;
+    height: 0px;
+    left: 161px;
+    top: 107px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    border: 3px rgb(141, 155, 138) solid;
+}
+
+.horizontal-line {
+    width: 1145px;
+    height: 0px;
+    left: 161px;
+    top: 406px;
+    position: absolute;
+    border: 3px rgb(141, 155, 138) solid;
+}
