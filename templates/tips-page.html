@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>FootTracker | Tips</title>
+        
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/tips-styles/general.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/tips-styles/header.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/tips-styles/tips-page.css') }}" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;700&family=Judson:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <button onclick="window.location.href='/'" class="home-icon">FootTracker</button>
+        <div class="subtitles">
+            <button onclick="window.location.href='/about'" class="about-button">About SDG
+                12</button>
+            <button onclick="window.location.href='/tips'" class="tips-button">Tips</button>
+            <button onclick="window.location.href='/statistics'"
+                class="statistics-button">Statistics</button>
+            <button class="plus-button">+</button>
+        </div>
+    </div>
+
+    <div class="tips-container">
+        <div onclick="document.getElementById('gt01').style.display='block'; modal=document.getElementById('gt01');"
+            class="tips">
+            <div class="icon">
+                <img src="{{ url_for('static', filename='/images/tips-images/food-icon.png') }}" >
+            </div>
+            <div class="tip">
+                <p>Food Waste</p>
+            </div>
+            <div class="description">
+                <p>Organic waste is left to decompose in landfills and contributes to greenhouse gas emissions.</p>
+            </div>
+        </div>
+
+        <div onclick="document.getElementById('gt02').style.display='block'; modal=document.getElementById('gt02');"
+            class="tips">
+            <div class="icon">
+                <img src="{{ url_for('static', filename='/images/tips-images/water-icon.png') }}" >
+            </div>
+            <div class="tip">
+                <p>Plastic Waste</p>
+            </div>
+            <div class="description">
+                <p>Plastic waste is a global concern since it is non-biodegradable, causing many environmental
+                    challenges. </p>
+            </div>
+        </div>
+
+        <div onclick="document.getElementById('gt03').style.display='block'; modal=document.getElementById('gt03');"
+            class="tips">
+            <div class="icon">
+                <img src="{{ url_for('static', filename='/images/tips-images/electricity-icon.png') }}" >
+            </div>
+            <div class="tip">
+                <p>Home</p>
+            </div>
+            <div class="description">
+                <p>Includes multiple sources such as lighting and electronic devices.</p>
+            </div>
+        </div>
+
+        <div onclick="document.getElementById('gt04').style.display='block'; modal=document.getElementById('gt04');"
+            class="tips">
+            <div class="icon">
+                <img src="{{ url_for('static', filename='/images/tips-images/transportation-icon.png') }}" >
+            </div>
+            <div class="tip">
+                <p>Transportation</p>
+            </div>
+            <div class="description">
+                <p>Transportation is one of the leading causes of carbon emissions, as vehicles emit carbon dioxide.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="gt01" class="overlay">
+        <div class="overlay-content">
+            <div class="tips-container">
+                <div class="tips-overlay">
+                    <div class="tip-overlay">
+                        <p>Food Waste</p>
+                    </div>
+                    <div class="description-overlay">
+                        <ul>
+                            <li>meal planning</li>
+                            <ul>
+                                <li>mindful shopping</li>
+                                <li>nutritious meals</li>
+                                <li>healthy portioning</li>
+                            </ul>
+                            <li>learning to use leftovers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gt02" class="overlay">
+        <div class="overlay-content">
+            <div class="tips-container">
+                <div class="tips-overlay">
+                    <div class="tip-overlay">
+                        <p>Plastic Waste</p>
+                    </div>
+                    <div class="description-overlay">
+                        <ul>
+                            <li>invest in reusable bags and water bottles</li>
+                            <li>buy from sustainable sources</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gt03" class="overlay">
+        <div class="overlay-content">
+            <div class="tips-container">
+                <div class="tips-overlay">
+                    <div class="tip-overlay">
+                        <p>Home</p>
+                    </div>
+                    <div class="description-overlay">
+                        <ul>
+                            <li>change incandescent light bulbs to LEDs</li>
+                            <li>turn off lights when leaving the room</li>
+                            <li>unplug devices that are not in use</li>
+                            <li>turn down your water heater</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gt04" class="overlay">
+        <div class="overlay-content">
+            <div class="tips-container">
+                <div class="tips-overlay">
+                    <div class="tip-overlay">
+                        <p>Transportation</p>
+                    </div>
+                    <div class="description-overlay">
+                        <ul>
+                            <li>take public transport, carpool, or walk instead of driving</li>
+                            <li>avoid unnecessary braking and acceleration while driving</li>
+                            <li>check tire pressure</li>
+                            <li>consider buying electric or hybrid vehicles</li>
+                            <li>avoid flying on shorter trips or fly nonstop to avoid extra landings and takeoffs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='/scripts/tips-scripts/tips-page.js') }}"></script>
+</body>
+
+</html>

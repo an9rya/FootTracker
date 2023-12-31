@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: Josefin Sans, sans-serif;
+}
+
+form {
+  text-align: center;
+  line-height: 30px;
+  height: 80%;
+  overflow: auto;
+}
+
+form hr {
+  width: 15%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+input {
+  background-color: rgb(212, 223, 209);
+  font-family: Josefin Sans, sans-serif;
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 25px;
+}

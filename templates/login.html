@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FootTracker Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/login-styles/general.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/login-styles/header.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/login-styles/about-page.css') }}" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;700&family=Judson:wght@700&display=swap"
+        rel="stylesheet">
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.username(class_="name") }}
+        {{ form.password(class_="submit") }}
+        {{ form.submit(class_="submit") }}
+    </form>
+
+    
+    <a href="{{url_for('register')}}">Not a member?</a>
+  </body>
+</html>

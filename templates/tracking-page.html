@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FootTracker | Questions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/tracking-styles/general.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/tracking-styles/header.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/tracking-styles/tracking-page.css') }}" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;700&family=Judson:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <button onclick="window.location.href='/'" class="home-icon">FootTracker</button>
+    </div>
+
+    <form action="submission.html" method="POST">
+        <section class="food">
+            <h2>Food</h2>
+            <label for="food-waste">Approximately how much food do you waste per week (in kg)?</label>
+            <input type="number" name="food-waste" id="food-waste" min="0" required>
+        </section>
+
+        <section class="plastic">
+            <h2>Plastic</h2>
+            <span>Do you regularly use plastic water bottles?</span>
+            <br>
+            <input type="radio" name="buy-bottles" id="yesbottles" value="yes" onchange="howManyBottles(true)" required>
+            <label for="yesbottles">Yes</label>
+            <input type="radio" name="buy-bottles" id="nobottles" value="no" onchange="howManyBottles(false)" required>
+            <label for="nobottles">No</label>
+            <div id="how-many-bottles"></div>
+            <br>
+
+            <span>Do you regularly use non-reusable plastic bags?</span>
+            <br>
+            <input type="radio" name="use-bags" id="yesbags" value="yes" onchange="howManyBags(true)" required>
+            <label for="yesbags">Yes</label>
+            <input type="radio" name="use-bags" id="nobags" value="no" onchange="howManyBags(false)" required>
+            <label for="nobags">No</label>
+            <div id="how-many-bags"></div>
+            <br>
+
+            <span>Do you regularly use plastic straws?</span>
+            <br>
+            <input type="radio" name="use-straws" id="yesstraws" value="yes" onchange="howManyStraws(true)" required>
+            <label for="yesstraws">Yes</label>
+            <input type="radio" name="use-straws" id="nostraws" value="no" onchange="howManyStraws(false)" required>
+            <label for="nostraws">No</label>
+            <div id="how-many-straws"></div>
+            <br>
+        </section>
+
+        <section class="home">
+            <h2>Home</h2>
+            <span>Do you have incandescent light bulbs that are regularly used at home?</span>
+            <br>
+            <input type="radio" name="incandescent" id="yesbulbs" value="yes" required>
+            <label for="yesbulbs">Yes</label>
+            <input type="radio" name="incandescent" id="nobulbs" value="no" required>
+            <label for="nobulbs">No</label>
+            <br><br>
+
+            <span>Do you usually turn off the lights when exiting a room?</span>
+            <br>
+            <input type="radio" name="lightsoff" id="off" value="yes" required>
+            <label for="off">Yes</label>
+            <input type="radio" name="lightsoff" id="on" value="no" required>
+            <label for="on">No</label>
+            <br><br>
+
+            <span>Do you usually unplug devices that are not in use?</span>
+            <br>
+            <input type="radio" name="unplug" id="unplugged" value="yes" required>
+            <label for="unplugged">Yes</label>
+            <input type="radio" name="unplug" id="plugged" value="no" required>
+            <label for="plugged">No</label>
+            <br><br>
+        </section>
+        <section class="transportation">
+            <h2>Transportation</h2>
+            <label for="public-transport">How many days a week do you take public transportation?</label>
+            <input type="number" name="public-transport" id="public-transport" min="0" max="7" required>
+            <br><br>
+
+            <label for="carpool">How many days a week do you carpool?</label>
+            <input type="number" name="carpool" id="carpool" min="0" max="7" required>
+            <br><br>
+
+            <span>Do you drive an electric or hybird vehicle?</span>
+            <br>
+            <input type="radio" name="electric-vehicle" id="electric" value="yes" required>
+            <label for="electric">Yes</label>
+            <input type="radio" name="electric-vehicle" id="gas" value="no" required>
+            <label for="gas">No</label>
+            <br><br>
+
+            <label for="drive">How many days a week do you drive?</label>
+            <input type="number" name="drive" id="drive" min="0" max="7" required>
+            <br><br>
+            <label for="distance-drive">What is the approximate distance you drive per week (in km)?</label>
+            <input type="number" name="distance-drive" id="distance-drive" min="0" required>
+            <br><br>
+            <label for="distance-plane">What is the approximate distance you travel by plane a year (in km)?</label>
+            <input type="number" name="distance-plane" id="distance-plane" min="0" required>
+            <br><br>
+        </section>
+        <section class="submission">
+            <input type="submit" value="Submit">
+        </section>
+    </form>
+
+    <script src="{{ url_for('static', filename='/scripts/tracking-scripts/tracking-page.js') }}"></script>
+</body>
+
+</html>

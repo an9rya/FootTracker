@@ -1,0 +1,133 @@
+/* Header */
+.home-title {
+    margin-left: 100px;
+    color: #8D9B8A;
+    font-size: 50px;
+    font-family: Judson;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.home-left {
+    width: 80px;
+    margin-left: 0px;
+    margin-top: -30px;
+    border: 3px #8D9B8A solid;
+}
+
+.home-right {
+    width: 1275px;
+    margin-left: 245px;
+    margin-top: -5px;
+    border: 3px #8D9B8A solid;
+}
+
+.home-boxes {
+    width: 1647px;
+    height: 275px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/* Box 1 */
+.home-border-1 {
+    width: 235px;
+    height: 220px;
+    margin-left: 300px;
+    background: #E1E1E1;
+}
+
+.home-outline-1 {
+    width: 190px;
+    height: 180px;
+    margin-left: 320px;
+    margin-top: -202px;
+    background: #E1E1E1;
+    border: 3px #8D9B8A solid;
+}
+
+.home-text-11 {
+    margin-left: 380px;
+    margin-top: -170px;
+    color: #8D9B8A;
+    font-size: 50px;
+    font-family: Judson;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.home-text-12 {
+    width: 120px;
+    margin-left: 355px;
+    margin-top: 10px;
+    text-align: center;
+    color: #496744;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.home-line-1-to-2 {
+    width: 200px;
+    height: 0px;
+    margin-left: 515px;
+    margin-top: -50px;
+    border: 3px #8D9B8A solid;
+}
+
+/* Box 2 */
+.home-border-2 {
+    width: 500px;
+    height: 220px;
+    margin-left: 720px;
+    margin-top: -120px;
+    background: #E1E1E1;
+}
+
+.home-outline-2 {
+    width: 460px;
+    height: 180px;
+    margin-left: 740px;
+    margin-top: -202px;
+    background: #E1E1E1;
+    border: 3px #8D9B8A solid;
+}
+
+.home-text-21 {
+    width: 120px;
+    height: 171px;
+    margin-left: 780px;
+    margin-top: -140px;
+    color: #496744;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.home-text-22 {
+    width: 175px;
+    height: 124px;
+    margin-left: 965px;
+    margin-top: -175px;
+    text-align: center;
+    color: #8D9B8A;
+    font-size: 50px;
+    font-family: Judson;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.home-text-23 {
+    width: 591px;
+    height: 72px;
+    margin-left: 750px;
+    margin-top: -65px;
+    text-align: center;
+    color: #8D9B8A;
+    font-size: 30px;
+    font-family: Judson;
+    font-weight: 700;
+    word-wrap: break-word;
+}

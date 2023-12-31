@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FootTracker | Statistics</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/statistics-styles/general.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/statistics-styles/header.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/statistics-styles/statistics-page.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/statistics-styles/bar-graph.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/statistics-styles/food-waste.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/statistics-styles/plastic-waste.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/statistics-styles/home.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/statistics-styles/tranportation.css') }}" >
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;700&family=Judson:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <button onclick="window.location.href='/'" class="home-icon">FootTracker</button>
+        <div class="subtitles">
+            <button onclick="window.location.href='/about'" class="about-button">About SDG
+                12</button>
+            <button onclick="window.location.href='/tips'" class="tips-button">Tips</button>
+            <button onclick="window.location.href='/statistics'"
+                class="statistics-button">Statistics</button>
+            <button class="plus-button">+</button>
+        </div>
+    </div>
+
+    <div class="statistics-page">
+        <div class="bar-graph">
+            <div class="bar-graph-background"></div>
+            <div class="electricity-bar"></div>
+            <div class="agriculture-bar"></div>
+            <div class="transportation-bar"></div>
+            <div class="industry-bar"></div>
+            <div class="buildings-bar"></div>
+            <div class="other-energy-bar"></div>
+            <div class="vertical-line"></div>
+            <div class="horizontal-line"></div>
+            <div class="title">Global Greenhouse Gas Emissions</div>
+            <div class="sidebar-title">Percent of Global Greenhouse Gas Emissions</div>
+            <div class="electricity-text">Electricity and Heat</div>
+            <div class="agriculture-text">Agriculture</div>
+            <div class="buildings-text">
+                Buildings</div>
+            <div class="transportation-text">
+                Transportation</div>
+            <div class="industry-text">
+                Industry</div>
+            <div class="other-energy-text">
+                Other Energy</div>
+            <div
+                style="left: 113px; top: 120px; position: absolute; color: #496744; font-size: 24px; font-family: Josefin Sans; font-weight: 300; word-wrap: break-word">
+                25</div>
+            <div
+                style="left: 113px; top: 175px; position: absolute; color: #496744; font-size: 24px; font-family: Josefin Sans; font-weight: 300; word-wrap: break-word">
+                20</div>
+            <div
+                style="left: 113px; top: 233px; position: absolute; color: #496744; font-size: 24px; font-family: Josefin Sans; font-weight: 300; word-wrap: break-word">
+                15</div>
+            <div
+                style="left: 113px; top: 290px; position: absolute; color: #496744; font-size: 24px; font-family: Josefin Sans; font-weight: 300; word-wrap: break-word">
+                10</div>
+            <div
+                style="left: 119px; top: 348px; position: absolute; color: #496744; font-size: 24px; font-family: Josefin Sans; font-weight: 300; word-wrap: break-word">
+                5</div>
+        </div>
+
+        <!--Food Waste-->
+        <div class="food-waste-title">Food Waste</div>
+        <div class="food-waste-left"></div>
+        <div class="food-waste-right"></div>
+        <div class="food-waste-boxes">
+            <div class="food-border-1"></div>
+            <div class="food-outline-1"></div>
+            <div class="food-text-11">140 kg</div>
+            <div class="food-text-12">food waste per Canadian household per year</div>
+
+            <div class="food-line-1-to-2"></div>
+
+            <div class="food-border-2"></div>
+            <div class="food-outline-2a"></div>
+            <div class="food-text-2a1">at least</div>
+            <div class="food-text-2a2">60%</div>
+            <div class="food-text-2a3">is avoidable </div>
+            <div class="food-outline-2b"></div>
+            <div class="food-text-2b1">Using
+                Sustainable Practices:</div>
+            <div class="food-text-2b2">
+                <ul>
+                    <li>Composting</li>
+                    <li>Preventing overbuying</li>
+                    <li>Donating food</li>
+                    <li>Storing food properly</li>
+                </ul>
+            </div>
+
+            <div class="food-line-2-to-3"></div>
+
+            <div class="food-border-3"></div>
+            <div class="food-outline-3ab"></div>
+            <div class="food-outline-3a"></div>
+            <div class="food-text-3a1">45%</div>
+            <div class="food-text-3a2">of food waste is</div>
+            <div class="food-text-3a3">Produce</div>
+            <div class="food-text-3b1">42%</div>
+            <div class="food-text-3b2">of food waste is</div>
+            <div class="food-text-3b3">Leftovers</div>
+
+        </div>
+
+        <!--Plastic Waste-->
+        <div class="plastic-waste-title">Plastic Waste</div>
+        <div class="plastic-waste-left"></div>
+        <div class="plastic-waste-right"></div>
+
+        <div class="plastic-waste-boxes">
+            <div class="plastic-border-1"></div>
+            <div class="plastic-outline-1"></div>
+            <div class="plastic-text-1a">105 kg</div>
+            <div class="plastic-text-1b">plastic waste per person in 2019</div>
+
+            <div class="plastic-line-1-to-2"></div>
+
+            <div class="plastic-border-2"></div>
+            <div class="plastic-outline-2"></div>
+            <div class="plastic-text-2a">85%</div>
+            <div class="plastic-text-2b">of Canadian households have reusable water bottles</div>
+
+            <div class="plastic-line-2-to-3"></div>
+
+            <div class="plastic-border-3"></div>
+            <div class="plastic-outline-3"></div>
+            <div class="plastic-text-3a">97%</div>
+            <div class="plastic-text-3b">of Canadian households use reusable bags</div>
+        </div>
+
+        <!--Home-->
+        <div class="home-title">Home</div>
+        <div class="home-left"></div>
+        <div class="home-right"></div>
+
+        <div class="home-boxes">
+            <div class="home-border-1"></div>
+            <div class="home-outline-1"></div>
+            <div class="home-text-11">81%</div>
+            <div class="home-text-12">of households use energy-saving lights</div>
+
+            <div class="home-line-1-to-2"></div>
+
+            <div class="home-border-2"></div>
+            <div class="home-outline-2"></div>
+            <div class="home-text-21">the annual electricity consumption per capita in 2019 was</div>
+            <div class="home-text-22">15</div>
+            <div class="home-text-23">Megawatt-Hours</div>
+        </div>
+
+        <!--Transportation-->
+        <div class="transportation-title">Transportation</div>
+        <div class="transportation-left"></div>
+        <div class="transportation-right"></div>
+
+        <div class="transportation-boxes">
+            <div class="transportation-border-1"></div>
+            <div class="transportation-outline-1"></div>
+            <div class="transportation-text-11">120.6 Million</div>
+            <div class="transportation-text-12">trips were taken in September 2022</div>
+
+            <div class="transportation-border-2"></div>
+            <div class="transportation-outline-2a"></div>
+            <div class="transportation-text-2a1">5 Million</div>
+            <div class="transportation-text-2a2">employed Canadians used sustainable transportation in 2016</div>
+            <div class="transportation-outline-2b"></div>
+            <div class="transportation-text-2b">
+                <ul>
+                    <li>1.97 million used transit</li>
+                    <li>1.93 million carpooled</li>
+                    <li>1.1 million biked/walked</li>
+                </ul>
+            </div>
+
+            <div class="transportation-border-3"></div>
+            <div class="transportation-outline-3ab"></div>
+            <div class="transportation-outline-3b"></div>
+            <div class="transportation-text-3a1">86 Thousand</div>
+            <div class="transportation-text-3a2">electric/hybrid vehicles were registered in Canada in 2021</div>
+            <div class="transportation-text-3b1">5.3%</div>
+            <div class="transportation-text-3b2">of all vehicles</div>
+        </div>
+</body>
+
+</html>

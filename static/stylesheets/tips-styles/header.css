@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.home-icon {
+    color: rgb(141, 155, 138);
+    font-family: Judson, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+}
+
+.subtitles {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    margin-left: 950px;
+    align-items: center;
+}
+
+
+.tips-button {
+    background-color: rgb(245, 245, 245);
+    border-width: 0px 0px 5px 0px;
+    border-color: rgb(167, 190, 159);
+    border-style: solid;
+}
+
+.about-button,
+.statistics-button {
+    background-color: rgb(245, 245, 245);
+    border: none;
+}
+
+.about-button:hover,
+.statistics-button:hover {
+    text-decoration: underline;
+}
+
+.plus-button {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(141, 155, 138);
+    color: white;
+    border: none;
+}
