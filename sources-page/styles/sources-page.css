@@ -1,0 +1,19 @@
+.sources{
+    font-family: judson, sans-serif;
+    margin-left:100px;
+}
+
+
+a:link {
+    color:rgb(141, 155, 138);
+    text-decoration:none;
+}
+
+a:visited {
+    color: rgb(94, 105, 92);
+}
+
+a:hover {
+    color: rgb(169, 218, 160);
+    text-decoration:none;
+}
