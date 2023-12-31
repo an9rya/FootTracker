@@ -1,12 +1,15 @@
-.sources{
+.sources {
     font-family: judson, sans-serif;
-    margin-left:100px;
+    margin-left: 100px;
 }
 
+.sources-title {
+    color: rgb(141, 155, 138);
+}
 
 a:link {
-    color:rgb(141, 155, 138);
-    text-decoration:none;
+    color: rgb(141, 155, 138);
+    text-decoration: none;
 }
 
 a:visited {
@@ -14,6 +17,6 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(169, 218, 160);
-    text-decoration:none;
+    color: rgb(192, 207, 187);
+    text-decoration: none;
 }
