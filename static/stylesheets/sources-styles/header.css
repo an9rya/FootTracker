@@ -15,34 +15,3 @@
     margin-top: 10px;
     margin-bottom: 50px;
 }
-
-.subtitles {
-    display: flex;
-    width: 350px;
-    justify-content: space-between;
-    margin-left: 950px;
-    align-items: center;
-}
-
-.subtitles button {
-    border: none;
-}
-
-.about-button,
-.tips-button,
-.statistics-button {
-    background-color: rgb(245, 245, 245);
-}
-
-.about-button:hover,
-.tips-button:hover,
-.statistics-button:hover {
-    text-decoration: underline;
-}
-
-.plus-button {
-    width: 30px;
-    height: 30px;
-    background-color: rgb(141, 155, 138);
-    color: white;
-}

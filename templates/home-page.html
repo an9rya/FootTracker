@@ -23,7 +23,7 @@
             <button onclick="window.location.href='/tips'" class="tips-button">Tips</button>
             <button onclick="window.location.href='/statistics'"
                 class="statistics-button">Statistics</button>
-            <button class="plus-button">+</button>
+            <button onclick="window.location.href='/tracking'" class="plus-button">+</button>
         </div>
     </div>
 
@@ -40,7 +40,15 @@
 
     <img class="homepage-footsteps" src="{{ url_for('static', filename='/images/home-images/footsteps.png') }}">
     <button onclick="window.location.href='/login'" class="start-tracking-button">Start
-        Tracking Today</button>
+        Tracking Today
+    </button>
+    
+    <div class="bottom">
+        <a href="/sources">Sources</a>
+    </div>
+</body>
+
+</html>
 </body>
 
 </html>
