@@ -39,3 +39,21 @@
     margin-top: 50px;
     margin-left: 725px;
 }
+
+.bottom {
+    font-family: Judson, sans-serif;
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+a:link{
+    text-decoration: none;
+    color:rgb(141, 155, 138);
+}
+a:visited{
+    text-decoration: none;
+    color:rgb(141, 155, 138);
+}
