@@ -32,11 +32,11 @@ class User(db.Model, UserMixin):
 class RegisterForm(FlaskForm):
     username = StringField(validators=[InputRequired(), Length(
         min=4, max=20
-    )],render_kw={"placeholder": "username"})
+    )],render_kw={"placeholder": "Username"})
 
     password = PasswordField(validators=[InputRequired(), Length(
         min=4, max=20
-    )],render_kw={"placeholder": "password"})
+    )],render_kw={"placeholder": "Password"})
     
     submit = SubmitField("Register")
 
@@ -73,12 +73,9 @@ def login():
                 login_user(user)
                 print("Logged in!")
                 return redirect(url_for('home'))
-            else: 
-                flash('Username or Password is incorrect.')
-        else:
-            flash('Username or Password is incorrect.')
                 
-
+    
+    flash('Username or Password is incorrect.')
     return render_template('login.html', form=form)
 
 @app.route('/register', methods=['GET', 'POST'])
@@ -91,7 +88,7 @@ def register():
         db.session.add(new_user)
         db.session.commit()
         return redirect(url_for('login')) 
-
+    flash('This user exists already.')
     return render_template('register.html', form=form)   
 #with app.app_context():
  #   db.create_all()
