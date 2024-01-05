@@ -4,7 +4,7 @@
     <title>FootTracker Sign Up</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/login-styles/general.css') }}" >
     <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/login-styles/header.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/login-styles/about-page.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='/stylesheets/login-styles/login.css') }}" >
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,9 +17,11 @@
     <h1>Sign Up</h1>
     <form method="POST" action="">
         {{ form.hidden_tag() }}
-        {{ form.username }}
-        {{ form.password }}
-        {{ form.submit }}
+        {{ form.username(class_="name") }}
+        <br>
+        {{ form.password(class_="submit") }}
+        <br>
+        {{ form.submit(class_="submit") }}
     </form>
     
     
